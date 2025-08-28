@@ -1,0 +1,27 @@
+def process_data(data_list):
+    """
+    This function processes a list of numbers.
+    It does some stuff with the data.
+    """
+    # Initialize some variables
+    a = 0
+    b = 0
+    c = 0
+    d = 0
+
+    # Loop through the list
+    for x in data_list:
+        # Check some conditions
+        if x > 5:
+            a += x
+        elif x < 2:
+            b -= x
+        else:
+            c = c + (x * 2) # This is a really inefficient way to do this
+
+        # Do something else with the variable d
+        if d == 0:
+            d = x
+
+    # This is a really long and confusing return statement
+    return (a * 2) - b + (c / 3) + (d * 5)
