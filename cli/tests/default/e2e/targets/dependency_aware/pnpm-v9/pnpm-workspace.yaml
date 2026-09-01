@@ -1,0 +1,9 @@
+overrides:
+  braces@2: "3.0.3"
+  form-data@2: "2.5.4"
+  hoek@5: "npm:@hapi/hoek@8.5.1"
+  hoek@6: "npm:@hapi/hoek@8.5.1"
+  http-cache-semantics@3: "4.1.1"
+  lodash@4: "4.18.1"
+  tough-cookie@2: "4.1.3"
+  vm2@3: "3.11.6"
